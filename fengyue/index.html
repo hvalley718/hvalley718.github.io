@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风月太监采花录-古代宫廷权谋小说在线阅读与内容解析</title>
+<meta name="description" content="风月太监采花录是一部以古代宫廷为背景的权谋题材小说，本站提供作品简介、人物关系梳理、章节阅读导航、世界观设定解析与读者常见问题解答，帮助读者快速了解故事脉络与阅读顺序。">
+<meta name="keywords" content="风月太监采花录,风月太监采花录小说,宫廷权谋小说,古代言情小说,风月太监采花录在线阅读,风月太监采花录章节">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+:root{
+  --ink:#1c1a22;
+  --ink-soft:#4a4453;
+  --paper:#f5f1e8;
+  --paper-2:#fffdf8;
+  --gold:#b8873a;
+  --gold-deep:#8a6122;
+  --crimson:#8c2b34;
+  --crimson-soft:#a8444d;
+  --line:#ddd3c0;
+  --shadow:0 6px 24px rgba(60,44,20,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"Songti SC","STSong","Noto Serif SC",Georgia,"Microsoft YaHei",serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.85;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 20px;}
+
+/* ---------- 顶部公告 ---------- */
+.topbar{
+  background:linear-gradient(90deg,#2a2430,#3b3240 60%,#4a3a3f);
+  color:#e8ddc9;
+  font-size:13px;
+  letter-spacing:.5px;
+}
+.topbar .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  min-height:38px;gap:12px;flex-wrap:wrap;
+}
+.topbar span{opacity:.85;}
+.topbar .tb-tag{color:var(--gold);}
+
+/* ---------- 页眉 ---------- */
+header.site-head{
+  background:var(--paper-2);
+  border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:40;
+  box-shadow:0 2px 12px rgba(80,60,30,.06);
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;min-height:76px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:12px;}
+.brand-mark{
+  width:46px;height:46px;flex:0 0 46px;
+  border-radius:50%;
+  background:radial-gradient(circle at 32% 28%,#d9b06a,var(--gold-deep));
+  color:#fff8e8;display:flex;align-items:center;justify-content:center;
+  font-size:20px;font-weight:700;letter-spacing:1px;
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.28);
+}
+.brand-txt h1{
+  font-size:22px;font-weight:700;letter-spacing:2px;line-height:1.3;
+  color:var(--ink);
+}
+.brand-txt p{font-size:12px;color:var(--ink-soft);letter-spacing:3px;}
+
+nav.main-nav ul{
+  display:flex;list-style:none;gap:6px;flex-wrap:wrap;
+}
+nav.main-nav a{
+  display:block;padding:8px 14px;font-size:15px;border-radius:4px;
+  color:var(--ink-soft);transition:.2s;letter-spacing:1px;
+}
+nav.main-nav a:hover{background:#f0e7d6;color:var(--crimson);}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  position:relative;
+  background:
+    linear-gradient(115deg,rgba(28,26,34,.94) 0%,rgba(40,32,44,.90) 45%,rgba(80,44,48,.88) 100%),
+    repeating-linear-gradient(45deg,rgba(184,135,58,.10) 0 2px,transparent 2px 12px);
+  color:#f2ead9;
+  overflow:hidden;
+}
+.hero::after{
+  content:"";position:absolute;inset:auto -10% -60% auto;
+  width:520px;height:520px;border-radius:50%;
+  background:radial-gradient(circle,rgba(184,135,58,.30),transparent 68%);
+  pointer-events:none;
+}
+.hero-inner{
+  position:relative;z-index:2;
+  display:grid;grid-template-columns:1.35fr .9fr;gap:44px;
+  padding:64px 20px 70px;align-items:center;
+}
+.hero-kicker{
+  display:inline-block;font-size:12px;letter-spacing:4px;
+  color:var(--gold);border:1px solid rgba(184,135,58,.55);
+  padding:4px 12px;border-radius:2px;margin-bottom:20px;
+}
+.hero h2{
+  font-size:clamp(28px,4.4vw,46px);line-height:1.28;letter-spacing:3px;
+  font-weight:700;margin-bottom:18px;
+}
+.hero h2 em{font-style:normal;color:#e6bf74;}
+.hero p.lead{
+  font-size:16px;color:#d6cbb8;max-width:640px;margin-bottom:26px;
+}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
+.btn{
+  display:inline-block;padding:12px 26px;border-radius:3px;
+  font-size:15px;letter-spacing:2px;transition:.22s;border:1px solid transparent;
+}
+.btn-gold{background:linear-gradient(135deg,#cfa056,var(--gold-deep));color:#fff8ea;box-shadow:0 4px 16px rgba(184,135,58,.35);}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(184,135,58,.45);}
+.btn-ghost{border-color:rgba(240,228,205,.5);color:#f0e4cd;}
+.btn-ghost:hover{background:rgba(240,228,205,.12);}
+
+.hero-side{
+  background:rgba(255,253,248,.06);
+  border:1px solid rgba(230,191,116,.35);
+  border-radius:6px;padding:24px 22px;
+  backdrop-filter:blur(2px);
+}
+.hero-side h3{
+  font-size:15px;letter-spacing:3px;color:var(--gold);
+  padding-bottom:12px;margin-bottom:14px;
+  border-bottom:1px dashed rgba(230,191,116,.35);font-weight:600;
+}
+.hero-side dl{display:grid;grid-template-columns:auto 1fr;gap:9px 14px;font-size:14px;color:#ded3c0;}
+.hero-side dt{color:#a99a80;white-space:nowrap;}
+.hero-side dd{color:#f0e6d3;}
+
+/* ---------- 通用区块 ---------- */
+section.block{padding:62px 0;}
+section.block.alt{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.sec-head{margin-bottom:34px;}
+.sec-head .eyebrow{
+  font-size:12px;letter-spacing:5px;color:var(--gold-deep);
+  text-transform:uppercase;display:block;margin-bottom:8px;
+}
+.sec-head h2{
+  font-size:26px;letter-spacing:3px;font-weight:700;position:relative;
+  padding-left:16px;
+}
+.sec-head h2::before{
+  content:"";position:absolute;left:0;top:8px;bottom:8px;width:4px;
+  background:linear-gradient(180deg,var(--crimson),var(--gold));
+  border-radius:2px;
+}
+.sec-head p.desc{margin-top:10px;color:var(--ink-soft);font-size:15px;max-width:820px;}
+
+/* ---------- 简介 ---------- */
+.intro-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start;}
+.intro-text p{margin-bottom:16px;color:#3a3442;font-size:15.5px;}
+.intro-text p strong{color:var(--crimson);font-weight:700;}
+.pull{
+  border-left:3px solid var(--gold);
+  background:#fbf6ea;padding:16px 20px;margin:22px 0;
+  font-size:15px;color:var(--ink-soft);border-radius:0 4px 4px 0;
+}
+.fact-card{
+  background:var(--paper-2);border:1px solid var(--line);border-radius:6px;
+  padding:22px;box-shadow:var(--shadow);
+}
+.fact-card h3{
+  font-size:16px;letter-spacing:2px;margin-bottom:16px;color:var(--ink);
+  padding-bottom:10px;border-bottom:1px solid var(--line);
+}
+.fact-card ul{list-style:none;}
+.fact-card li{
+  display:flex;justify-content:space-between;gap:12px;
+  padding:9px 0;font-size:14px;border-bottom:1px dashed #ece2d0;
+}
+.fact-card li:last-child{border-bottom:none;}
+.fact-card li span:first-child{color:#8b8272;}
+.fact-card li span:last-child{color:var(--ink);font-weight:600;text-align:right;}
+
+/* ---------- 章节导航 ---------- */
+.chapter-tools{
+  display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;
+}
+.chip{
+  padding:7px 16px;border-radius:20px;font-size:14px;
+  border:1px solid var(--line);background:var(--paper-2);
+  color:var(--ink-soft);cursor:pointer;transition:.2s;
+}
+.chip:hover,.chip.active{background:var(--crimson);color:#fff;border-color:var(--crimson);}
+.chapter-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));gap:14px;
+}
+.chapter-card{
+  background:var(--paper-2);border:1px solid var(--line);border-radius:5px;
+  padding:16px 18px;transition:.22s;position:relative;overflow:hidden;
+}
+.chapter-card::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:var(--gold);opacity:0;transition:.22s;
+}
+.chapter-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#cfc0a4;}
+.chapter-card:hover::before{opacity:1;}
+.chapter-card .c-no{font-size:12px;letter-spacing:2px;color:var(--gold-deep);}
+.chapter-card .c-title{font-size:15.5px;margin:6px 0 8px;font-weight:700;letter-spacing:1px;}
+.chapter-card .c-sum{font-size:13px;color:#7d7566;line-height:1.7;}
+
+/* ---------- 人物 ---------- */
+.role-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;}
+.role-card{
+  background:var(--paper-2);border:1px solid var(--line);border-radius:6px;
+  padding:24px 22px;box-shadow:var(--shadow);transition:.25s;
+}
+.role-card:hover{transform:translateY(-4px);}
+.role-avatar{
+  width:54px;height:54px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;color:#fff;margin-bottom:14px;letter-spacing:1px;
+  background:linear-gradient(135deg,#a8444d,#6e2530);
+}
+.role-card:nth-child(2) .role-avatar{background:linear-gradient(135deg,#cfa056,#8a6122);}
+.role-card:nth-child(3) .role-avatar{background:linear-gradient(135deg,#5c6b8a,#33405c);}
+.role-card:nth-child(4) .role-avatar{background:linear-gradient(135deg,#6f8a5c,#3f5233);}
+.role-card h3{font-size:17px;letter-spacing:2px;margin-bottom:4px;}
+.role-card .role-tag{font-size:12px;color:var(--gold-deep);letter-spacing:2px;margin-bottom:12px;display:block;}
+.role-card p{font-size:14px;color:#4f4859;}
+
+/* ---------- 阅读指南 ---------- */
+.guide-list{counter-reset:g;display:grid;gap:16px;}
+.guide-item{
+  counter-increment:g;
+  background:var(--paper-2);border:1px solid var(--line);border-radius:6px;
+  padding:20px 22px 20px 66px;position:relative;
+}
+.guide-item::before{
+  content:counter(g,decimal-leading-zero);
+  position:absolute;left:20px;top:20px;
+  font-size:20px;font-weight:700;color:var(--gold);
+  font-family:Georgia,serif;letter-spacing:1px;
+}
+.guide-item h3{font-size:16px;letter-spacing:1.5px;margin-bottom:6px;}
+.guide-item p{font-size:14.5px;color:#4f4859;}
+
+/* ---------- 设定 ---------- */
+.setting-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;}
+.setting-box{
+  border:1px solid var(--line);border-radius:6px;padding:20px;
+  background:linear-gradient(180deg,#fffdf8,#f8f2e6);
+}
+.setting-box h3{
+  font-size:15px;letter-spacing:2px;color:var(--crimson);
+  margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--line);
+}
+.setting-box p{font-size:14px;color:#4f4859;}
+
+/* ---------- FAQ ---------- */
+.faq-list{display:grid;gap:12px;}
+details.faq{
+  background:var(--paper-2);border:1px solid var(--line);border-radius:6px;
+  padding:0 20px;overflow:hidden;
+}
+details.faq summary{
+  cursor:pointer;list-style:none;padding:16px 26px 16px 0;
+  font-size:15.5px;font-weight:700;letter-spacing:1px;position:relative;
+  color:var(--ink);
+}
+details.faq summary::-webkit-details-marker{display:none;}
+details.faq summary::after{
+  content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);
+  font-size:20px;color:var(--gold-deep);transition:.2s;font-weight:400;
+}
+details.faq[open] summary::after{content:"–";}
+details.faq .faq-body{
+  padding:0 0 18px;font-size:14.5px;color:#4f4859;
+  border-top:1px dashed var(--line);padding-top:14px;
+}
+
+/* ---------- 侧栏推荐 ---------- */
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;}
+.pick{
+  display:flex;gap:16px;background:var(--paper-2);border:1px solid var(--line);
+  border-radius:6px;padding:18px;transition:.22s;
+}
+.pick:hover{box-shadow:var(--shadow);transform:translateY(-3px);}
+.pick-no{
+  flex:0 0 40px;height:40px;border-radius:4px;
+  background:#f0e6d2;color:var(--gold-deep);
+  display:flex;align-items:center;justify-content:center;
+  font-family:Georgia,serif;font-weight:700;font-size:17px;
+}
+.pick h3{font-size:15px;letter-spacing:1px;margin-bottom:5px;}
+.pick p{font-size:13.5px;color:#7d7566;}
+
+/* ---------- 页脚 ---------- */
+footer.site-foot{
+  background:linear-gradient(180deg,#241f2a,#191520);
+  color:#a99f8e;padding:52px 0 26px;font-size:14px;
+}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;margin-bottom:34px;}
+.foot-grid h4{
+  font-size:14px;letter-spacing:3px;color:var(--gold);margin-bottom:16px;font-weight:600;
+}
+.foot-grid p{line-height:1.9;color:#8d8474;font-size:13.5px;}
+.foot-grid ul{list-style:none;}
+.foot-grid li{margin-bottom:9px;}
+.foot-grid a{color:#8d8474;font-size:13.5px;transition:.2s;}
+.foot-grid a:hover{color:var(--gold);}
+.foot-bottom{
+  border-top:1px solid rgba(255,255,255,.08);padding-top:20px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12.5px;color:#6f6858;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:960px){
+  .hero-inner{grid-template-columns:1fr;padding:48px 20px 54px;gap:30px;}
+  .intro-grid{grid-template-columns:1fr;gap:28px;}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px;}
+}
+@media (max-width:640px){
+  body{font-size:15px;}
+  .head-inner{min-height:auto;padding:14px 0;flex-direction:column;align-items:flex-start;gap:12px;}
+  nav.main-nav ul{gap:2px;}
+  nav.main-nav a{padding:7px 10px;font-size:14px;}
+  section.block{padding:44px 0;}
+  .sec-head h2{font-size:21px;}
+  .chapter-grid{grid-template-columns:1fr 1fr;}
+  .foot-grid{grid-template-columns:1fr;}
+  .hero h2{letter-spacing:1px;}
+  .brand-txt h1{font-size:19px;}
+}
+@media (max-width:420px){
+  .chapter-grid{grid-template-columns:1fr;}
+  .hero-actions .btn{width:100%;text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>本站为作品导读与内容解析站，提供简介、人物、设定与阅读顺序参考</span>
+    <span class="tb-tag">宫廷权谋 · 古代题材 · 阅读导航</span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <div class="brand-mark">风</div>
+      <div class="brand-txt">
+        <h1>风月太监采花录 · 作品导读站</h1>
+        <p>古代宫廷 · 权谋群像 · 阅读指南</p>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <ul>
+        <li><a href="#intro">作品简介</a></li>
+        <li><a href="#chapters">章节导航</a></li>
+        <li><a href="#roles">人物关系</a></li>
+        <li><a href="#guide">阅读指南</a></li>
+        <li><a href="#setting">世界观设定</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="hero-kicker">古 代 宫 廷 权 谋 题 材</span>
+        <h2>读懂《风月太监采花录》<br>从<em>人物关系</em>到<em>阅读顺序</em>的完整梳理</h2>
+        <p class="lead">
+          如果你刚接触这部作品，最想知道的往往是三件事：它讲了一个什么样的故事、人物之间是什么关系、应该按什么顺序读下去。
+          本页围绕《风月太监采花录》整理作品简介、主要人物、章节导航、世界观设定与常见疑问，帮助你用最短时间建立对故事的整体认知。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#chapters">查看章节导航</a>
+          <a class="btn btn-ghost" href="#intro">先看作品简介</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <h3>作 品 速 览</h3>
+        <dl>
+          <dt>题材方向</dt><dd>古代宫廷 · 权谋 · 群像</dd>
+          <dt>叙事视角</dt><dd>多线并进，以宫内人物为核心</dd>
+          <dt>核心看点</dt><dd>身份反转、势力博弈、人物抉择</dd>
+          <dt>阅读门槛</dt><dd>人物较多，建议配合关系表阅读</dd>
+          <dt>内容基调</dt><dd>偏成人向的古代题材叙事</dd>
+          <dt>适合读者</dt><dd>喜欢宫廷权谋与人物群像的读者</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 作品简介 -->
+  <section class="block" id="intro">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Introduction</span>
+        <h2>作品简介与核心看点</h2>
+        <p class="desc">先用一段话讲清故事框架，再拆解它为什么值得读、适合谁读。</p>
+      </div>
+
+      <div class="intro-grid">
+        <div class="intro-text">
+          <p>
+            《风月太监采花录》是一部以古代宫廷为舞台的长篇叙事作品。故事把视角放在皇城内部这个封闭而等级森严的空间里，
+            围绕一位身份特殊的内廷人物展开，通过他与后宫、朝臣、外戚、内侍群体之间的往来，逐步牵出宫墙之内层层叠叠的利益关系。
+          </p>
+          <p>
+            作品的重点并不只在单一主角的遭遇，而在于<strong>“身份”与“权力”之间的张力</strong>：一个被制度固定在低位的人，
+            如何在规则缝隙中获取信息、建立关系、做出选择；而围绕他的每一个人，又各自带着自己的目的与退路。
+            这种多线并进的写法，让故事在推进情节的同时，也勾勒出一幅宫廷众生相。
+          </p>
+          <div class="pull">
+            阅读这类作品时，与其急着追问结局，不如先理清三张网：<br>
+            一是人物之间的亲疏与利益关系；二是宫内各股势力的此消彼长；三是主角每一次选择背后的代价。
+          </div>
+          <p>
+            从题材上看，它融合了宫廷权谋、人物群像与古代情感叙事三类元素。宫廷权谋提供冲突与悬念，
+            群像描写提供层次与厚度，而情感线则让人物的动机变得可被理解。三者交织，构成了作品的主要阅读体验。
+          </p>
+          <p>
+            需要说明的是，这类题材往往包含成人向内容与复杂的人物关系，阅读时建议先了解整体框架，
+            再决定是否继续深入；对情节敏感度较高的读者，可以优先阅读人物关系与设定部分，建立心理预期后再进入正文。
+          </p>
+        </div>
+
+        <aside class="fact-card">
+          <h3>阅读前你需要知道的</h3>
+          <ul>
+            <li><span>人物规模</span><span>较多，需借助关系表</span></li>
+            <li><span>叙事节奏</span><span>前期铺垫，中段加快</span></li>
+            <li><span>冲突来源</span><span>身份、权力、情感</span></li>
+            <li><span>阅读建议</span><span>按章节顺序，勿跳读</span></li>
+            <li><span>重点线索</span><span>人物动机与信息差</span></li>
+            <li><span>内容提示</span><span>含成人向情节描写</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 章节导航 -->
+  <section class="block alt" id="chapters">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Chapters</span>
+        <h2>章节导航与内容脉络</h2>
+        <p class="desc">按叙事阶段划分阅读区间，方便你判断当前进度处在故事的哪个部分。</p>
+      </div>
+
+      <div class="chapter-tools" role="tablist" aria-label="章节阶段筛选">
+        <button class="chip active" type="button">全部阶段</button>
+        <button class="chip" type="button">开篇铺垫</button>
+        <button class="chip" type="button">势力交锋</button>
+        <button class="chip" type="button">人物转折</button>
+        <button class="chip" type="button">收束与余韵</button>
+      </div>
+
+      <div class="chapter-grid">
+        <article class="chapter-card">
+          <div class="c-no">开 篇 铺 垫</div>
+          <h3 class="c-title">入宫与身份确立</h3>
+          <p class="c-sum">交代时代背景与宫内基本格局，主角的特殊身份在此阶段被确立，为后续所有冲突埋下前提。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">开 篇 铺 垫</div>
+          <h3 class="c-title">初识各方人物</h3>
+          <p class="c-sum">后宫、内侍、朝臣三方人物陆续登场，读者可在此阶段建立初步的人物印象与阵营判断。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">势 力 交 锋</div>
+          <h3 class="c-title">第一次信息博弈</h3>
+          <p class="c-sum">围绕一件宫内事务，多方各自盘算，主角首次以“信息”为筹码介入局势，代价开始显现。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">势 力 交 锋</div>
+          <h3 class="c-title">同盟与试探</h3>
+          <p class="c-sum">人物之间的合作多为阶段性，此阶段重点在于分辨谁是可以长期倚靠的对象，谁只是临时同行。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">人 物 转 折</div>
+          <h3 class="c-title">立场动摇</h3>
+          <p class="c-sum">部分角色的立场因外部压力发生变化，前文埋下的伏笔在此集中回收，阅读时需留意细节呼应。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">人 物 转 折</div>
+          <h3 class="c-title">代价与抉择</h3>
+          <p class="c-sum">主角面临真正意义上的两难选择，这一阶段的决定会直接影响后续所有关系的走向。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">收 束 与 余 韵</div>
+          <h3 class="c-title">格局重排</h3>
+          <p class="c-sum">旧有势力结构被打破，新的秩序开始形成，主要人物的归宿在此阶段逐渐清晰。</p>
+        </article>
+        <article class="chapter-card">
+          <div class="c-no">收 束 与 余 韵</div>
+          <h3 class="c-title">留白与回望</h3>
+          <p class="c-sum">结尾部分往往不追求全盘交代，而是通过留白让读者自行回味，适合读完后回头重看开篇。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 人物关系 -->
+  <section class="block" id="roles">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Characters</span>
+        <h2>主要人物与关系结构</h2>
+        <p class="desc">以下为按功能划分的人物类型说明，帮助你快速判断每个角色在故事中承担的作用。</p>
+      </div>
+
+      <div class="role-grid">
+        <article class="role-card">
+          <div class="role-avatar">主</div>
+          <h3>核心视角人物</h3>
+          <span class="role-tag">信 息 汇 聚 点</span>
+          <p>故事的观察者与推动者。其特殊身份使他能够接触到宫内不同层级的人，也因此始终处在风险与机会并存的夹缝中。理解他的处境，是理解整部作品的前提。</p>
+        </article>
+        <article class="role-card">
+          <div class="role-avatar">权</div>
+          <h3>掌权者与上位者</h3>
+          <span class="role-tag">规 则 制 定 方</span>
+          <p>掌握资源分配与人事任免的关键角色。他们的态度变化往往直接决定下层人物的命运，也是各方势力争取的对象。</p>
+        </article>
+        <article class="role-card">
+          <div class="role-avatar">谋</div>
+          <h3>谋士与同僚</h3>
+          <span class="role-tag">利 益 同 行 者</span>
+          <p>与主角处于相近层级，既有合作也有竞争。这类角色的立场最不稳定，也最能体现作品对“利益关系”的刻画。</p>
+        </article>
+        <article class="role-card">
+          <div class="role-avatar">情</div>
+          <h3>情感线相关角色</h3>
+          <span class="role-tag">动 机 来 源</span>
+          <p>为人物行为提供情感动机，使权谋之外的部分具有温度。她们的选择同样受制于环境，并非单纯的附属存在。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 阅读指南 -->
+  <section class="block alt" id="guide">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Reading Guide</span>
+        <h2>阅读方法与顺序建议</h2>
+        <p class="desc">面对人物多、线索杂的长篇作品，合理的阅读方法能显著降低理解成本。</p>
+      </div>
+
+      <div class="guide-list">
+        <div class="guide-item">
+          <h3>先建立人物表，再进入正文</h3>
+          <p>开篇阶段人物密集登场，建议边读边记录“姓名—身份—所属阵营—与主角关系”四项信息。哪怕只记关键词，也能在后续情节中快速定位。</p>
+        </div>
+        <div class="guide-item">
+          <h3>按顺序阅读，不要跳过铺垫章节</h3>
+          <p>此类作品的伏笔往往埋得很早，开篇看似平淡的对话、赏赐、传话，都可能在几十章后成为关键。跳读容易造成后期理解断层。</p>
+        </div>
+        <div class="guide-item">
+          <h3>关注“信息差”而非只看情节</h3>
+          <p>宫廷题材的核心张力来自谁知道什么、谁误以为什么。读到关键节点时，可以停下来想一想：此刻各方分别掌握了哪些信息？这通常比猜测结局更有收获。</p>
+        </div>
+        <div class="guide-item">
+          <h3>区分阶段性同盟与长期立场</h3>
+          <p>人物之间的合作常随局势变化。判断一段关系时，建议先看双方当下的共同利益，再看是否存在根本冲突，避免过早给角色贴标签。</p>
+        </div>
+        <div class="guide-item">
+          <h3>读完后回看开篇</h3>
+          <p>结尾阶段往往会对开篇的细节做出回应。读完后重新翻阅前几章，常能发现当时未察觉的暗示，这是这类作品的重要阅读乐趣之一。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 世界观设定 -->
+  <section class="block" id="setting">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Setting</span>
+        <h2>世界观与背景设定</h2>
+        <p class="desc">了解故事赖以运转的几条基本规则，有助于判断人物行为的合理性。</p>
+      </div>
+
+      <div class="setting-grid">
+        <div class="setting-box">
+          <h3>空间结构</h3>
+          <p>故事主要发生在皇城内部。内廷与外朝、前殿与后宫之间存在明确界限，人物能否跨过这些界限，本身就是权力大小的体现。</p>
+        </div>
+        <div class="setting-box">
+          <h3>等级秩序</h3>
+          <p>身份决定可获得的资源与话语权。作品中的多数冲突，本质上是人物试图在既定等级中向上移动，或阻止他人移动。</p>
+        </div>
+        <div class="setting-box">
+          <h3>信息流通</h3>
+          <p>宫内消息传递受限，谁能第一时间获知信息，谁就占据主动。信息因此成为一种可交换、可囤积的资源。</p>
+        </div>
+        <div class="setting-box">
+          <h3>人情网络</h3>
+          <p>除正式制度外，人情往来构成另一套隐性规则。恩情、把柄、旧交都可能成为关键时刻的筹码。</p>
+        </div>
+        <div class="setting-box">
+          <h3>时间节奏</h3>
+          <p>叙事时间多围绕具体事件推进，节庆、祭祀、册封等节点常成为情节转折的契机，阅读时可留意时间标记。</p>
+        </div>
+        <div class="setting-box">
+          <h3>内容基调</h3>
+          <p>整体偏成人向，包含复杂关系与灰色地带的人物描写。建议读者根据自身接受度选择阅读方式。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 相关推荐 -->
+  <section class="block alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Related</span>
+        <h2>同类型阅读方向参考</h2>
+        <p class="desc">如果你喜欢本作的叙事方式，可以关注以下几类常见的古代题材阅读方向。</p>
+      </div>
+      <div class="picks">
+        <article class="pick">
+          <div class="pick-no">01</div>
+          <div>
+            <h3>宫廷权谋群像类</h3>
+            <p>以多方势力博弈为主线，人物众多，适合喜欢推演局势与人物动机的读者。</p>
+          </div>
+        </article>
+        <article class="pick">
+          <div class="pick-no">02</div>
+          <div>
+            <h3>身份反转叙事类</h3>
+            <p>主角起点低、处境受限，通过信息与关系逐步改变位置，阅读爽感来自“以小博大”。</p>
+          </div>
+        </article>
+        <article class="pick">
+          <div class="pick-no">03</div>
+          <div>
+            <h3>古代情感与命运类</h3>
+            <p>侧重人物在环境压力下的情感选择，节奏相对舒缓，重视心理描写与细节铺垫。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>常见问题解答</h2>
+        <p class="desc">整理读者在接触这部作品时最常提出的疑问。</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq" open>
+          <summary>《风月太监采花录》主要讲的是什么？</summary>
+          <div class="faq-body">
+            它以古代宫廷为背景，围绕一位身份特殊的内廷人物展开，通过他与后宫、朝臣、内侍等多方人物的往来，
+            呈现宫墙之内的权力关系与人物抉择。核心看点在于身份限制与个人选择之间的持续张力。
+          </div>
+        </details>
+        <details class="faq">
+          <summary>阅读时需要提前了解什么背景知识吗？</summary>
+          <div class="faq-body">
+            不需要专门的历史知识。作品使用的是架空或半架空的宫廷设定，只要理解“内廷与外朝”“等级与身份”这两组基本概念，
+            就能顺畅进入故事。遇到陌生称谓时，可随时回看本页的设定部分。
+          </div>
+        </details>
+        <details class="faq">
+          <summary>人物太多记不住怎么办？</summary>
+          <div class="faq-body">
+            建议按“身份 + 阵营 + 与主角关系”三项做简单记录。多数人物在首次登场时都会通过对话或场景交代其位置，
+            抓住这一点，比记住名字更重要。
+          </div>
+        </details>
+        <details class="faq">
+          <summary>可以跳读吗？</summary>
+          <div class="faq-body">
+            不建议。此类作品的铺垫章节往往承担伏笔功能，跳读容易在后续情节中产生理解断层。
+            如果时间有限，可以放慢速度精读关键转折段，而不是直接跳过。
+          </div>
+        </details>
+        <details class="faq">
+          <summary>内容适合哪些读者？</summary>
+          <div class="faq-body">
+            适合喜欢古代宫廷题材、权谋博弈与人物群像的成年读者。作品包含成人向情节与复杂关系描写，
+            未成年读者及对相关内容敏感的读者请谨慎选择。
+          </div>
+        </details>
+        <details class="faq">
+          <summary>本站提供什么内容？</summary>
+          <div class="faq-body">
+            本站为作品导读与内容解析页面，提供作品简介、人物关系梳理、章节阶段导航、世界观设定说明与常见问题解答，
+            帮助读者在阅读前建立整体认知，不提供正文内容存储或传播服务。
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>关 于 本 站</h4>
+        <p>
+          本站是围绕《风月太监采花录》建立的导读与解析页面，聚焦作品简介、人物关系、章节脉络与背景设定，
+          帮助读者在进入正文前建立清晰的阅读框架。内容以梳理与说明为主，不含正文存储。
+        </p>
+      </div>
+      <div>
+        <h4>页 面 导 航</h4>
+        <ul>
+          <li><a href="#intro">作品简介</a></li>
+          <li><a href="#chapters">章节导航</a></li>
+          <li><a href="#roles">人物关系</a></li>
+          <li><a href="#guide">阅读指南</a></li>
+          <li><a href="#setting">世界观设定</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅 读 提 示</h4>
+        <ul>
+          <li>建议按章节顺序阅读</li>
+          <li>提前建立人物记录表</li>
+          <li>留意细节与伏笔呼应</li>
+          <li>根据自身接受度选择内容</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>《风月太监采花录》作品导读 · 内容整理页面</span>
+      <span>本站内容仅作阅读参考与信息梳理之用</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var chips = document.querySelectorAll('.chip');
+  var cards = document.querySelectorAll('.chapter-card');
+  chips.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      chips.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var label = btn.textContent.replace(/\s/g,'');
+      cards.forEach(function(card){
+        var no = card.querySelector('.c-no').textContent.replace(/\s/g,'');
+        if(label === '全部阶段' || no === label){
+          card.style.display = '';
+        }else{
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+</script>
+
+</body>
+  </html>
