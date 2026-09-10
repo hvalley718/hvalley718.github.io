@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>元旦的手抄报 - 元旦主题手抄报模板、内容素材与排版设计指南</title>
+<meta name="description" content="元旦的手抄报制作指南，提供元旦手抄报的标题设计、内容素材、版式布局、配色方案、花边装饰和文字素材，帮助学生和家长快速完成元旦主题手抄报作业。">
+<meta name="keywords" content="元旦的手抄报,元旦手抄报,元旦手抄报内容,元旦手抄报模板,元旦手抄报版面设计,元旦手抄报素材">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #d92b2b;
+  --red-deep: #b01c1c;
+  --gold: #f5b301;
+  --gold-light: #ffe08a;
+  --cream: #fffaf0;
+  --paper: #fffdf7;
+  --ink: #2c2320;
+  --ink-soft: #5a4d47;
+  --line: #f0dfc4;
+  --green: #3c8f5a;
+}
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== 顶部栏 ===== */
+.topbar {
+  background: linear-gradient(90deg, var(--red-deep), var(--red));
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 0;
+}
+
+.topbar .wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topbar span {
+  opacity: .92;
+}
+
+/* ===== 页眉 ===== */
+.site-header {
+  background: var(--paper);
+  border-bottom: 3px solid var(--gold);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 12px rgba(160, 80, 30, .08);
+}
+
+.header-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--red), var(--red-deep));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(200, 40, 40, .3);
+  flex: none;
+}
+
+.brand-text h1 {
+  font-size: 21px;
+  letter-spacing: .5px;
+  color: var(--red-deep);
+}
+
+.brand-text p {
+  font-size: 12px;
+  color: var(--ink-soft);
+  letter-spacing: 1px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  display: block;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: var(--ink-soft);
+  transition: .2s;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  background: #fdecec;
+  color: var(--red-deep);
+  font-weight: 600;
+}
+
+/* ===== 首屏 ===== */
+.hero {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(245, 179, 1, .22), transparent 45%),
+    radial-gradient(circle at 88% 80%, rgba(217, 43, 43, .18), transparent 50%),
+    linear-gradient(160deg, #fff6e6, #ffe9d6);
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 52px 20px 46px;
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.hero h2 {
+  font-size: 34px;
+  line-height: 1.35;
+  color: var(--red-deep);
+  margin-bottom: 16px;
+}
+
+.hero h2 em {
+  font-style: normal;
+  color: var(--gold);
+  background: linear-gradient(transparent 62%, #ffe08a 62%);
+  padding: 0 2px;
+}
+
+.hero p.lead {
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin-bottom: 22px;
+  max-width: 560px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 11px 26px;
+  border-radius: 26px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .22s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--red);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(200, 40, 40, .28);
+}
+
+.btn-primary:hover {
+  background: var(--red-deep);
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  border-color: var(--gold);
+  color: var(--red-deep);
+  background: rgba(255, 255, 255, .7);
+}
+
+.btn-ghost:hover {
+  background: var(--gold-light);
+}
+
+.hero-points {
+  list-style: none;
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+
+.hero-points li::before {
+  content: "✦";
+  color: var(--gold);
+  margin-right: 6px;
+  font-weight: 700;
+}
+
+/* 手抄报模拟纸面 */
+.paper-mock {
+  background: var(--paper);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 14px 34px rgba(150, 80, 30, .18);
+  border: 1px solid var(--line);
+  transform: rotate(1.2deg);
+}
+
+.paper-mock .pm-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--red);
+  letter-spacing: 6px;
+  padding-bottom: 10px;
+  border-bottom: 3px double var(--gold);
+  margin-bottom: 14px;
+}
+
+.paper-mock .pm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.pm-box {
+  border: 1.5px dashed #e0b98a;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  background: #fffcf5;
+  line-height: 1.6;
+}
+
+.pm-box b {
+  display: block;
+  color: var(--red-deep);
+  font-size: 12.5px;
+  margin-bottom: 4px;
+}
+
+.pm-box.wide {
+  grid-column: span 2;
+}
+
+.pm-dots {
+  margin-top: 8px;
+  height: 6px;
+  background-image: radial-gradient(var(--gold) 1.4px, transparent 1.4px);
+  background-size: 10px 6px;
+  opacity: .7;
+}
+
+/* ===== 通用区块 ===== */
+.section {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.section-head .kicker {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.section-head h2 {
+  font-size: 27px;
+  color: var(--red-deep);
+  margin-bottom: 10px;
+}
+
+.section-head p {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ===== 步骤 ===== */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.step-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px 20px;
+  position: relative;
+  transition: .25s;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 26px rgba(180, 100, 40, .14);
+  border-color: var(--gold);
+}
+
+.step-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.step-card h3 {
+  font-size: 16.5px;
+  color: var(--red-deep);
+  margin-bottom: 8px;
+}
+
+.step-card p {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+
+/* ===== 内容素材 ===== */
+.material-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.material-block {
+  background: var(--paper);
+  border-radius: 14px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--gold);
+}
+
+.material-block h3 {
+  font-size: 18px;
+  color: var(--red-deep);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.material-block h3::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  border-radius: 50%;
+  flex: none;
+}
+
+.material-list {
+  list-style: none;
+}
+
+.material-list li {
+  font-size: 14px;
+  color: var(--ink-soft);
+  padding: 9px 0 9px 20px;
+  border-bottom: 1px dashed var(--line);
+  position: relative;
+}
+
+.material-list li:last-child {
+  border-bottom: none;
+}
+
+.material-list li::before {
+  content: "❋";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: var(--red);
+  font-size: 12px;
+}
+
+.material-list li strong {
+  color: var(--ink);
+}
+
+/* ===== 版式布局图 ===== */
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.layout-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: .25s;
+}
+
+.layout-card:hover {
+  box-shadow: 0 12px 26px rgba(180, 100, 40, .14);
+  transform: translateY(-4px);
+}
+
+.layout-visual {
+  height: 150px;
+  background: #fff8ec;
+  padding: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.lv-a { grid-template-columns: 1.6fr 1fr; grid-template-rows: 44px 1fr; }
+.lv-b { grid-template-columns: 1fr 1fr; grid-template-rows: 40px 1fr 1fr; }
+.lv-c { grid-template-columns: 1fr 2fr; grid-template-rows: 1fr 1fr; }
+
+.lv-cell {
+  background: #fde9c8;
+  border-radius: 6px;
+  border: 1px dashed #e3b878;
+}
+
+.lv-cell.dark { background: #f7d5a0; }
+
+.lv-head {
+  grid-column: span 2;
+  background: #fbd7d7;
+  border: 1px dashed #e08f8f;
+  border-radius: 6px;
+}
+
+.layout-body {
+  padding: 18px 20px 22px;
+}
+
+.layout-body h3 {
+  font-size: 16px;
+  color: var(--red-deep);
+  margin-bottom: 6px;
+}
+
+.layout-body p {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+
+/* ===== 配色 ===== */
+.palette-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.palette-item {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.palette-swatch {
+  height: 76px;
+}
+
+.palette-info {
+  padding: 14px 16px;
+}
+
+.palette-info h4 {
+  font-size: 15px;
+  color: var(--red-deep);
+  margin-bottom: 4px;
+}
+
+.palette-info p {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+
+.sw1 { background: linear-gradient(135deg, #d92b2b, #b01c1c); }
+.sw2 { background: linear-gradient(135deg, #f5b301, #ffd75e); }
+.sw3 { background: linear-gradient(135deg, #3c8f5a, #7cc08e); }
+.sw4 { background: linear-gradient(135deg, #f7e6d0, #fdf6ec); }
+
+/* ===== 常见问题 ===== */
+.faq-wrap {
+  background: #fff7ec;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-list {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin-bottom: 14px;
+  overflow: hidden;
+}
+
+.faq-q {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 17px 22px;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  font-family: inherit;
+}
+
+.faq-q::after {
+  content: "＋";
+  color: var(--red);
+  font-size: 18px;
+  flex: none;
+  transition: .25s;
+}
+
+.faq-item.open .faq-q::after {
+  content: "－";
+  transform: rotate(180deg);
+}
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+.faq-a p {
+  padding: 0 22px 18px;
+}
+
+.faq-item.open .faq-a {
+  max-height: 400px;
+}
+
+/* ===== 提示条 ===== */
+.tips-band {
+  background: linear-gradient(120deg, #fff3da, #ffe8c4);
+  border-radius: 16px;
+  padding: 30px 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  border: 1px solid #f3d9a8;
+}
+
+.tips-band h3 {
+  font-size: 19px;
+  color: var(--red-deep);
+  margin-bottom: 14px;
+}
+
+.tips-band ul {
+  list-style: none;
+}
+
+.tips-band li {
+  font-size: 14px;
+  color: var(--ink-soft);
+  padding: 7px 0 7px 22px;
+  position: relative;
+}
+
+.tips-band li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* ===== 侧栏 + 主内容组合（工具区） ===== */
+.tool-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 30px;
+  align-items: start;
+}
+
+.tool-main {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.tool-main h3 {
+  font-size: 20px;
+  color: var(--red-deep);
+  margin-bottom: 12px;
+}
+
+.tool-main p {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  list-style: none;
+}
+
+.checklist li {
+  background: #fffaf0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.checklist li input {
+  margin-top: 4px;
+  accent-color: var(--red);
+  flex: none;
+}
+
+.side-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.side-card h3 {
+  font-size: 16.5px;
+  color: var(--red-deep);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed var(--line);
+}
+
+.side-card ol,
+.side-card ul {
+  padding-left: 18px;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+.side-card li {
+  margin-bottom: 9px;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-cloud span {
+  font-size: 12.5px;
+  padding: 5px 12px;
+  border-radius: 16px;
+  background: #fdecec;
+  color: var(--red-deep);
+}
+
+/* ===== 页脚 ===== */
+.site-footer {
+  background: #33241f;
+  color: #d8c9c0;
+  padding: 46px 20px 22px;
+  margin-top: 20px;
+}
+
+.footer-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.footer-brand h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-brand p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #b8a79e;
+}
+
+.footer-col h4 {
+  color: var(--gold);
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col li {
+  margin-bottom: 9px;
+}
+
+.footer-col a {
+  font-size: 13px;
+  color: #b8a79e;
+  transition: .2s;
+}
+
+.footer-col a:hover {
+  color: var(--gold-light);
+}
+
+.copyright {
+  max-width: 1180px;
+  margin: 34px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid #4a3831;
+  text-align: center;
+  font-size: 12.5px;
+  color: #8f7d74;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 980px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .paper-mock { transform: none; max-width: 460px; }
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .material-layout { grid-template-columns: 1fr; }
+  .layout-grid { grid-template-columns: repeat(2, 1fr); }
+  .palette-row { grid-template-columns: repeat(2, 1fr); }
+  .tool-layout { grid-template-columns: 1fr; }
+  .tips-band { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 640px) {
+  .header-inner { padding: 12px 16px; }
+  .brand-text h1 { font-size: 18px; }
+  .main-nav a { padding: 6px 10px; font-size: 13px; }
+  .hero-inner { padding: 34px 16px 30px; }
+  .hero h2 { font-size: 25px; }
+  .section { padding: 40px 16px; }
+  .section-head h2 { font-size: 22px; }
+  .steps { grid-template-columns: 1fr; }
+  .layout-grid { grid-template-columns: 1fr; }
+  .palette-row { grid-template-columns: 1fr; }
+  .checklist { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1fr; }
+  .tool-main { padding: 22px 18px; }
+  .tips-band { padding: 24px 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>元旦主题手抄报 · 版面设计 · 文字素材 · 花边装饰参考</span>
+    <span>适合小学生、中学生及家长辅导使用</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">元</div>
+      <div class="brand-text">
+        <h1>元旦手抄报设计坊</h1>
+        <p>版面 · 素材 · 配色 · 装饰</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#steps" class="active">制作步骤</a></li>
+        <li><a href="#material">内容素材</a></li>
+        <li><a href="#layout">版式布局</a></li>
+        <li><a href="#palette">配色方案</a></li>
+        <li><a href="#tool">制作清单</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="hero-badge">元旦主题 · 手抄报</span>
+        <h2>元旦的手抄报怎么做？<em>从排版到文字一次讲清</em></h2>
+        <p class="lead">元旦手抄报是节日期间常见的校园作业与班级展示形式。它通常由标题、报头、文字栏目、插图花边和底纹装饰组成。本页按“确定主题—划分版面—填写内容—装饰美化”的顺序，整理出可直接参考的版面思路、文字素材方向与配色建议，帮助你快速完成一份整洁、有节日氛围的手抄报。</p>
+        <div class="hero-actions">
+          <a href="#steps" class="btn btn-primary">查看制作步骤</a>
+          <a href="#material" class="btn btn-ghost">获取文字素材</a>
+        </div>
+        <ul class="hero-points">
+          <li>版面划分清晰</li>
+          <li>文字素材可直接改写</li>
+          <li>配色与花边搭配参考</li>
+          <li>适合 A3 / A4 纸张</li>
+        </ul>
+      </div>
+      <div class="paper-mock" aria-hidden="true">
+        <div class="pm-title">元旦快乐</div>
+        <div class="pm-grid">
+          <div class="pm-box">
+            <b>报头区</b>
+            主标题 + 副标题 + 日期，字体最大，位置醒目。
+          </div>
+          <div class="pm-box">
+            <b>插图区</b>
+            灯笼、梅花、雪花、生肖图案，围绕主题点缀。
+          </div>
+          <div class="pm-box wide">
+            <b>正文栏目</b>
+            元旦由来 · 节日习俗 · 新年寄语 · 名人名言 · 我的新年愿望
+            <div class="pm-dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 制作步骤 -->
+  <section class="section" id="steps">
+    <div class="section-head">
+      <span class="kicker">STEP BY STEP</span>
+      <h2>元旦手抄报的四步制作流程</h2>
+      <p>先规划、再动笔，可以避免反复修改。下面四步按实际绘制顺序排列，每一步都给出可操作的做法。</p>
+    </div>
+    <div class="steps">
+      <article class="step-card">
+        <div class="step-num">1</div>
+        <h3>确定主题与标题</h3>
+        <p>围绕“元旦”“新年”“辞旧迎新”等方向确定一个主标题，例如《喜迎元旦》《新年新气象》。标题控制在 4 到 8 个字，便于放大书写。</p>
+      </article>
+      <article class="step-card">
+        <div class="step-num">2</div>
+        <h3>划分版面区域</h3>
+        <p>先用铅笔在纸上轻轻勾出报头、正文栏目和插图的位置。常见做法是把纸面分成三到四个区域，避免文字全部挤在一处。</p>
+      </article>
+      <article class="step-card">
+        <div class="step-num">3</div>
+        <h3>填写文字内容</h3>
+        <p>按栏目依次写入元旦由来、习俗、寄语等内容。正文用小字，栏目名用稍大的字，形成主次对比，方便阅读。</p>
+      </article>
+      <article class="step-card">
+        <div class="step-num">4</div>
+        <h3>装饰与上色</h3>
+        <p>最后添加花边、边框、灯笼、雪花等装饰，再统一上色。建议先完成文字，再上色，避免颜色影响书写。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 内容素材 -->
+  <section class="section" id="material" style="background:#fff8ee;border-radius:20px;">
+    <div class="section-head">
+      <span class="kicker">CONTENT</span>
+      <h2>元旦手抄报可以写哪些内容</h2>
+      <p>手抄报的文字不宜过长，每个栏目控制在 60 到 120 字较为合适。以下方向可根据自己的理解重新组织语言，避免直接照抄。</p>
+    </div>
+    <div class="material-layout">
+      <div class="material-block">
+        <h3>常见栏目方向</h3>
+        <ul class="material-list">
+          <li><strong>元旦的由来：</strong>介绍“元旦”一词的来历，以及公历新年在时间上的含义。</li>
+          <li><strong>节日习俗：</strong>不同地区迎接新年的方式，如贴窗花、挂灯笼、互送祝福等。</li>
+          <li><strong>新年寄语：</strong>写给同学、家人或自己的祝福语，语言简洁真诚即可。</li>
+          <li><strong>名人名言：</strong>选择与时间、奋斗、希望相关的名言，注明出处。</li>
+          <li><strong>我的新年愿望：</strong>写下具体的小目标，比空泛的口号更有感染力。</li>
+          <li><strong>元旦小知识：</strong>如世界不同国家迎接新年的时间差异与特色活动。</li>
+        </ul>
+      </div>
+      <div class="material-block">
+        <h3>文字组织建议</h3>
+        <ul class="material-list">
+          <li><strong>先列提纲：</strong>确定三到四个栏目，每个栏目写一句话主旨。</li>
+          <li><strong>控制字数：</strong>栏目过多会让版面拥挤，宁可少而精。</li>
+          <li><strong>语言口语化：</strong>用自己的话表达，读起来更自然。</li>
+          <li><strong>注意出处：</strong>引用名言、诗句时写明作者或来源。</li>
+          <li><strong>留白意识：</strong>文字与插图之间留出空隙，版面会更透气。</li>
+          <li><strong>标题呼应：</strong>各栏目名称尽量与主标题风格统一。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 版式布局 -->
+  <section class="section" id="layout">
+    <div class="section-head">
+      <span class="kicker">LAYOUT</span>
+      <h2>三种常用的元旦手抄报版面结构</h2>
+      <p>版面结构决定了整张手抄报的第一观感。下面用简图示意三种常见排布方式，实际绘制时可按纸张大小灵活调整比例。</p>
+    </div>
+    <div class="layout-grid">
+      <article class="layout-card">
+        <div class="layout-visual lv-a">
+          <div class="lv-head"></div>
+          <div class="lv-cell dark"></div>
+          <div class="lv-cell"></div>
+          <div class="lv-cell"></div>
+        </div>
+        <div class="layout-body">
+          <h3>上下分区式</h3>
+          <p>顶部整条作为报头书写主标题，下方左右分栏放置正文与插图。结构稳定，适合初次制作手抄报的同学。</p>
+        </div>
+      </article>
+      <article class="layout-card">
+        <div class="layout-visual lv-b">
+          <div class="lv-head"></div>
+          <div class="lv-cell"></div>
+          <div class="lv-cell dark"></div>
+          <div class="lv-cell dark"></div>
+          <div class="lv-cell"></div>
+        </div>
+        <div class="layout-body">
+          <h3>田字分格式</h3>
+          <p>把纸面分成四个大小相近的区域，分别安排不同栏目。栏目数量多、内容量均衡时比较适用。</p>
+        </div>
+      </article>
+      <article class="layout-card">
+        <div class="layout-visual lv-c">
+          <div class="lv-cell dark"></div>
+          <div class="lv-cell"></div>
+          <div class="lv-cell"></div>
+          <div class="lv-cell"></div>
+        </div>
+        <div class="layout-body">
+          <h3>左右主次式</h3>
+          <p>一侧留出较大区域做主题插图或长文，另一侧分成小栏目。视觉重点突出，适合有明确插图构思的版面。</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 配色 -->
+  <section class="section" id="palette">
+    <div class="section-head">
+      <span class="kicker">COLOR</span>
+      <h2>元旦手抄报的配色思路</h2>
+      <p>元旦属于冬季节日，配色上常以暖色为主、冷色点缀。整张手抄报的主色建议不超过三种，避免颜色杂乱。</p>
+    </div>
+    <div class="palette-row">
+      <div class="palette-item">
+        <div class="palette-swatch sw1"></div>
+        <div class="palette-info">
+          <h4>中国红</h4>
+          <p>用于主标题、重要边框和灯笼等装饰，是节日氛围的主要来源。</p>
+        </div>
+      </div>
+      <div class="palette-item">
+        <div class="palette-swatch sw2"></div>
+        <div class="palette-info">
+          <h4>暖金色</h4>
+          <p>搭配红色使用，用于副标题、花边和小面积点缀，提升明亮感。</p>
+        </div>
+      </div>
+      <div class="palette-item">
+        <div class="palette-swatch sw3"></div>
+        <div class="palette-info">
+          <h4>松柏绿</h4>
+          <p>作为冷色点缀，可用于植物、边框线条，平衡整体暖色比例。</p>
+        </div>
+      </div>
+      <div class="palette-item">
+        <div class="palette-swatch sw4"></div>
+        <div class="palette-info">
+          <h4>米白底</h4>
+          <p>纸张底色或文字区域的背景色，保证文字清晰、阅读舒适。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 制作清单 + 侧栏 -->
+  <section class="section" id="tool">
+    <div class="section-head">
+      <span class="kicker">CHECKLIST</span>
+      <h2>动手前的准备清单</h2>
+      <p>把材料和步骤提前准备好，制作过程会顺畅很多。下面的清单可以边做边核对。</p>
+    </div>
+    <div class="tool-layout">
+      <div class="tool-main">
+        <h3>绘制前逐项确认</h3>
+        <p>以下项目按实际制作顺序排列，勾选完成后基本可以保证版面完整、内容齐全。</p>
+        <ul class="checklist">
+          <li><input type="checkbox" id="c1"><label for="c1">准备好纸张、铅笔、橡皮、直尺和彩笔</label></li>
+          <li><input type="checkbox" id="c2"><label for="c2">确定主标题文字与书写位置</label></li>
+          <li><input type="checkbox" id="c3"><label for="c3">用铅笔轻轻划分出版面区域</label></li>
+          <li><input type="checkbox" id="c4"><label for="c4">列出三到四个栏目名称</label></li>
+          <li><input type="checkbox" id="c5"><label for="c5">为每个栏目准备好文字内容</label></li>
+          <li><input type="checkbox" id="c6"><label for="c6">设计或选择主题插图样式</label></li>
+          <li><input type="checkbox" id="c7"><label for="c7">确定整体配色不超过三种主色</label></li>
+          <li><input type="checkbox" id="c8"><label for="c8">检查文字有无错别字与漏字</label></li>
+          <li><input type="checkbox" id="c9"><label for="c9">擦除多余的铅笔辅助线</label></li>
+          <li><input type="checkbox" id="c10"><label for="c10">整体检查版面是否整洁均衡</label></li>
+        </ul>
+      </div>
+      <aside>
+        <div class="side-card">
+          <h3>装饰元素参考</h3>
+          <ul>
+            <li>灯笼、中国结、窗花</li>
+            <li>雪花、梅花、松枝</li>
+            <li>彩带、气球、礼盒</li>
+            <li>日历、时钟、烟花</li>
+            <li>波浪线、点线、云纹边框</li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>常用关键词</h3>
+          <div class="tag-cloud">
+            <span>辞旧迎新</span>
+            <span>新年新气象</span>
+            <span>喜迎元旦</span>
+            <span>万象更新</span>
+            <span>新年寄语</span>
+            <span>节日习俗</span>
+            <span>元旦由来</span>
+            <span>新年愿望</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 提示条 -->
+  <section class="section" style="padding-top:0;">
+    <div class="tips-band">
+      <div>
+        <h3>制作时容易忽略的细节</h3>
+        <ul>
+          <li>先用铅笔打稿，确认无误后再用彩笔描线。</li>
+          <li>主标题字体要比正文明显大，形成层级对比。</li>
+          <li>文字行距保持一致，避免忽宽忽窄。</li>
+          <li>插图不要压住文字，留出清晰的阅读区域。</li>
+        </ul>
+      </div>
+      <div>
+        <h3>让版面更耐看的做法</h3>
+        <ul>
+          <li>边框统一使用同一种线条风格。</li>
+          <li>颜色由深到浅过渡，避免大面积纯色平涂。</li>
+          <li>在角落留少量空白，版面更有呼吸感。</li>
+          <li>内容用自己的语言表达，比照搬更有意义。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="faq-wrap" id="faq">
+    <div class="section">
+      <div class="section-head">
+        <span class="kicker">FAQ</span>
+        <h2>关于元旦手抄报的常见问题</h2>
+        <p>整理了几个制作过程中经常遇到的疑问，供参考。</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" type="button">元旦手抄报一般用多大的纸？</button>
+          <div class="faq-a">
+            <p>常见的是 A3 或 A4 纸，具体以老师要求为准。A3 版面空间更大，适合内容较多、插图较复杂的版本；A4 更适合内容精简、结构清晰的小版面。如果学校没有明确要求，可以先按 A4 练习排版，再放大到 A3。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">手抄报的文字内容可以写多少？</button>
+          <div class="faq-a">
+            <p>没有固定标准，但通常每个栏目控制在 60 到 120 字比较合适。文字过多会让版面显得拥挤，也会压缩插图和装饰的空间。建议先确定栏目数量，再按版面面积分配字数。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">不会画画还能做好元旦手抄报吗？</button>
+          <div class="faq-a">
+            <p>可以。手抄报的重点是版面整洁、内容清楚，插图只是辅助。可以使用简单的几何图形、线条边框、点状装饰来代替复杂图案，例如波浪线、方格边、圆点花边等，同样能让版面显得完整。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">标题应该写多大、放在哪里？</button>
+          <div class="faq-a">
+            <p>主标题通常是整张手抄报中最大的文字，一般放在版面上方居中或偏左的位置，便于第一时间被看到。字号可根据纸张大小调整，A4 纸上单字高度约 2 到 3 厘米比较合适，A3 纸可以适当放大。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">元旦手抄报和春节手抄报有什么区别？</button>
+          <div class="faq-a">
+            <p>两者都属于节日主题，但侧重点不同。元旦对应公历新年，内容多围绕辞旧迎新、新年目标、时间规划等展开；春节是传统农历新年，内容更多涉及年俗、团圆、生肖、春联等。制作时可根据节日特点选择相应的文字与装饰元素。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button">怎样让手抄报看起来更整齐？</button>
+          <div class="faq-a">
+            <p>关键在于提前规划和统一规范。先用铅笔划分区域并确定各栏目的边界，书写时保持字号和行距一致，边框线条尽量使用同一种风格，配色控制在三种主色以内。完成后再统一检查有无倾斜、错字和多余线条。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>元旦手抄报设计坊</h3>
+      <p>面向学生与家长的节日手抄报参考页面，提供版面结构、文字素材方向、配色思路与制作清单，帮助更高效地完成元旦主题手抄报作业。</p>
+    </div>
+    <div class="footer-col">
+      <h4>制作指南</h4>
+      <ul>
+        <li><a href="#steps">制作步骤</a></li>
+        <li><a href="#layout">版式布局</a></li>
+        <li><a href="#palette">配色方案</a></li>
+        <li><a href="#tool">准备清单</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>内容参考</h4>
+      <ul>
+        <li><a href="#material">栏目方向</a></li>
+        <li><a href="#material">文字组织</a></li>
+        <li><a href="#faq">常见问题</a></li>
+        <li><a href="#tool">装饰元素</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>相关主题</h4>
+      <ul>
+        <li><a href="#steps">新年手抄报</a></li>
+        <li><a href="#layout">节日手抄报</a></li>
+        <li><a href="#palette">冬季主题配色</a></li>
+        <li><a href="#faq">校园作业参考</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    © 元旦手抄报设计坊 · 内容仅供学习与参考，请结合自身理解独立完成手抄报创作
+  </div>
+</footer>
+
+<script>
+(function () {
+  var items = document.querySelectorAll('.faq-item');
+  items.forEach(function (item) {
+    var btn = item.querySelector('.faq-q');
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('open');
+      items.forEach(function (other) {
+        other.classList.remove('open');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+      }
+    });
+  });
+
+  var navLinks = document.querySelectorAll('.main-nav a');
+  navLinks.forEach(function (link) {
+    link.addEventListener('click', function () {
+      navLinks.forEach(function (l) { l.classList.remove('active'); });
+      link.classList.add('active');
+    });
+  });
+})();
+</script>
+
+</body>
+  </html>
